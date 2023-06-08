@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "GeneradorBoletoLista",
+      "request": "launch",
+      "mainClass": "solucionAlemol.video01_01.GeneradorBoletoLista",
+      "projectName": "desafio_programacion_java_linkedin_2570662a"
+    },
+    {
+      "type": "java",
+      "name": "GeneradorBoleto",
+      "request": "launch",
+      "mainClass": "solucionAlemol.video01_01.GeneradorBoleto",
+      "projectName": "desafio_programacion_java_linkedin_2570662a"
+    },
+    {
+      "type": "java",
+      "name": "GeneradorBoletoSimple",
+      "request": "launch",
+      "mainClass": "es.dsrroma.school.java.desafio1.video01_01.GeneradorBoletoSimple",
+      "projectName": "desafio_programacion_java_linkedin_2570662a"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}"
@@ -84,7 +105,9 @@
       "type": "java",
       "name": "Launch ContadorLetras",
       "request": "launch",
-      "args": ["patata"],
+      "args": [
+        "patata"
+      ],
       "mainClass": "es.dsrroma.school.java.desafio1.video01_10.ContadorLetras",
       "projectName": "desafio_programacion_java_2498412_4025d3f0"
     },
@@ -92,7 +115,10 @@
       "type": "java",
       "name": "Launch RellenarMatriz",
       "request": "launch",
-      "args": ["3", "6"],
+      "args": [
+        "3",
+        "6"
+      ],
       "mainClass": "es.dsrroma.school.java.desafio1.video01_11.RellenarMatriz",
       "projectName": "desafio_programacion_java_2498412_4025d3f0"
     },
